@@ -1,4 +1,17 @@
-<<<<<<< HEAD
+CakePHP on Google's App Engine
+=======
+
+Once you have a Google App Engine Account set up and paired with Google SQL, and Google Cloud Storage, there are a couple of bits of code you will need to update.
+What you need to update:
+ * Update /app/Config/database.php with Google SQL details
+ * Add Google Cloud Storage Bucket ID's in php.ini and the tmp bucket name in /app/webroot/index.php
+ 
+For a full introduction to CakePHP on App Engine, and a tutorial on how to get a basic app up and running, please fallow the link below:
+ 
+[cakephp and google's app engine](http://dev-mcconnell.blogspot.co.uk/2014/01/cakephp-2.html)
+=======
+
+
 CakePHP
 =======
 
@@ -43,8 +56,3 @@ Get Support!
 
 ![Cake Power](https://raw.github.com/cakephp/cakephp/master/lib/Cake/Console/Templates/skel/webroot/img/cake.power.gif)
 =======
-cakephp-appengine
-=================
-
-CakePHP on Google's App Engine
->>>>>>> 5835a2dd72824dfbe0c41462b631b32a16937c4c
