@@ -3,7 +3,7 @@ session_start();
 
 //Change the default TMP Folder path to a Cloud Storage Bucket
 if(isset($_SERVER['SERVER_SOFTWARE']) && strpos($_SERVER['SERVER_SOFTWARE'],'Google App Engine') !== false) {
-    define('TMP', "gs://rehab-cakephp-logs/");
+    define('TMP', "gs://{tmp-bucket-name}/");
 }
 /**
  * Index
